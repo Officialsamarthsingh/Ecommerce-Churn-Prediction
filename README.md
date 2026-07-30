@@ -34,17 +34,18 @@ The dataset was validated before use — a synthetically generated alternative w
 
 ```
 churn-prediction/
+├── data/
+│   └── data_ecommerce_customer_churn.csv
 ├── model/
 │   ├── xgboost_churn_model.pkl
 │   └── scaler.pkl
 ├── notebooks/
 │   ├── Churn_Prediction_EDA.ipynb
 │   └── Churn_Prediction_Feature-Engineering__Modelling.ipynb
-├── data/
-│   └── data_ecommerce_customer_churn.csv
 ├── app.py
 ├── api.py
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
