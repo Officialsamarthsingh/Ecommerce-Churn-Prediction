@@ -14,8 +14,8 @@ Customer churn is one of the most costly problems in e-commerce. This project bu
 
 | | Link |
 |---|---|
-| Streamlit App | `https//churn-predictor-ui.onrender.com` |
-| FastAPI Docs | `https//churn-predictor-api.onrender.com/docs` |
+| Streamlit App | `https://churn-predictor-ui-2ic6.onrender.com/` |
+| FastAPI Docs | `https://churn-predictor-api-z7mu.onrender.com/docs` |
 
 ---
 
