@@ -1,9 +1,23 @@
 import streamlit as st
 import numpy as np 
-import joblib 
+import joblib
+import os
 
-model = joblib.load("E:/Sam_Analysis/09_Project_Customer_Churn_Prediction_Model/Churn_Prediction_Model/model/xgboost_churn_model.pkl")
-scaler = joblib.load("E:/Sam_Analysis/09_Project_Customer_Churn_Prediction_Model/Churn_Prediction_Model/model/scaler.pkl")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model_path = os.path.join(
+    BASE_DIR,
+    "model",
+    "xgboost_churn_model.pkl"
+)
+
+model_path1 = os.path.join(
+    BASE_DIR,
+    "model",
+    "scaler.pkl"
+)
+model = joblib.load(model_path)
+scaler = joblib.load(model_path1)
 
 st.title("CUSTOMER CHURN PREDICTION")
 st.write("Fill the the customer details below.")
